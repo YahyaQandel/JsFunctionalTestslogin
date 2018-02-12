@@ -9,8 +9,6 @@ function lgn(){
 			method : "GET",
 			data: {username:em,password:pass},
 			success: function(result){
-            console.log(result)
-            if(result==true){console.log('asdfasdfasdfasdfasdasdfs')}
             document.getElementById('res').innerHTML = result? "successfull " : "failed"
         }});
 

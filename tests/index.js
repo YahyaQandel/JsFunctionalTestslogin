@@ -8,7 +8,7 @@ module.exports = {
       .setValue('input[name=pass]', 'test')
       .waitForElementVisible('button[name=sbtn]', 5000)
       .click('button[name=sbtn]')
-      .pause(1000)
+      .pause(5000)
       .assert.containsText('#res',
         'successfull')
       .end()
